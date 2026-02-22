@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from '@/components/BasePathImage'
 import Link from 'next/link'
 import React from 'react'
 import Marquee from 'react-fast-marquee'
@@ -108,3 +108,4 @@ const Projects = () => {
 }
 
 export default Projects
+

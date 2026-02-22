@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "@/components/BasePathImage"
 
 const page = () => {
     return (
@@ -102,3 +102,4 @@ const page = () => {
 }
 
 export default page
+

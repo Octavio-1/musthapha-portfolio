@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image';
+import Image from '@/components/BasePathImage';
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 // Default theme
@@ -48,3 +48,4 @@ const page = () => {
 }
 
 export default page
+
