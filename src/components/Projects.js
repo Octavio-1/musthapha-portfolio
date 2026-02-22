@@ -31,6 +31,20 @@ const Projects = () => {
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
                             <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>01</h1>
+                            <Link href="/visionmate" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white capitalize'>VisionMate AI-Powered Smart Glasses</Link>
+                        </div>
+                        <Link href="/visionmate" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
+                    </div>
+                    <div className='flex md:flex-row flex-col mt-5 gap-4'>
+                        <Image src="/visionmate-main.jpg" className='w-full md:w-[400px]' width={600} height={350} alt='VisionMate smart glasses'></Image>
+                    </div>
+                </div>
+                <div className='w-full h-[0.1px] bg-white opacity-60'></div>
+
+                <div>
+                    <div className='flex items-center justify-between'>
+                        <div className='flex items-center gap-4'>
+                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>02</h1>
                             <Link href="/ground-project" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white capitalize'>Unmanned Ground Vehicle</Link>
                         </div>
                         <Link href="/ground-project" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
@@ -44,7 +58,7 @@ const Projects = () => {
                 <div>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
-                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>02</h1>
+                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>03</h1>
                             <Link href="/swarm-system" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>UAV Swarm System</Link>
                         </div>
                         <Link href="/swarm-system" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
@@ -53,12 +67,13 @@ const Projects = () => {
                         <Image src="/uav.jpg" className='w-full md:w-[300px] rotate-90 pl-10' width={200} height={600} alt='uav'></Image>
                     </div>
                 </div>
+
                 <div className='w-full h-[0.1px] bg-white opacity-60'></div>
 
                 <div>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
-                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>03</h1>
+                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>04</h1>
                             <Link href="/vehicle-tracker" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>Cellular Vehicle Tracker</Link>
                         </div>
 
@@ -69,12 +84,13 @@ const Projects = () => {
                     </div>
                 </div>
 
+
                 <div className='w-full h-[0.1px] bg-white opacity-60'></div>
 
                 <div>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
-                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>04</h1>
+                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>05</h1>
                             <Link href="/envast" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white capitalize'>Envast Educational Project</Link>
                         </div>
 
@@ -85,13 +101,12 @@ const Projects = () => {
                     </div>
                 </div>
 
-
                 <div className='w-full h-[0.1px] bg-white opacity-60'></div>
 
                 <div>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
-                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>05</h1>
+                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>06</h1>
                             <Link href="/space-x" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white capitalize'>IBM Data Science Capstone Project: SpaceX Launch Analysis</Link>
                         </div>
 
